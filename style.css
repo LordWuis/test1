@@ -1,0 +1,49 @@
+.container{
+    font-size: 35px;
+    width:100%
+    font-family: "Rubik Burned", serif;
+    font-style: normal;
+    color:black;
+    display:flex;
+    justify-content: center;
+    background: rgba(38, 12, 167, 0.4);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.9);
+    border-radius:10px;
+}
+button{
+    background: rgba(255, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.9);
+    font-family: "Rubik Burned", system-ui;
+    backdrop-filter: blur(20px);
+    font-style: normal;
+    font-size: 25px;
+    font-weight: 700;
+    height:80px;
+    width:200px;
+    border-radius:10px;
+    margin-left:680px;
+    margin-top:5px;
+
+}
+.player1{
+    width:200px;
+    font-family: "Rubik Burned", system-ui;
+    font-size:20px;
+    margin-top:50px;
+    margin-left:200px;
+}
+.player2{
+    font-family: "Rubik Burned", system-ui;
+    font-size:20px;
+    margin-top:-350px;
+    margin-left:1130px;
+}
+.img1{
+    margin-left:150px;
+}
+.img2{
+    margin-bottom:100px;
+    margin-left:1100px
+}
